@@ -1,0 +1,32 @@
+{
+  "name": "slack-meetup-demo",
+  "version": "1.0.0",
+  "description": "Simple newsletter signup application ",
+  "main": "index.js",
+  "scripts": {
+    "start":"node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divinecodes/slack-meetup-demo.git"
+  },
+  "keywords": [
+    "slack",
+    "mailchimp"
+  ],
+  "author": "Divine Tettey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divinecodes/slack-meetup-demo/issues"
+  },
+  "homepage": "https://github.com/divinecodes/slack-meetup-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
