@@ -49,9 +49,12 @@ app.post('/signup', (req, res) => {
     //send data to mailchimp api 
     request(options, (err, response, body ) => {
         if(err){
+            console.log(err)
             res.redirect('/fail.html');
         } else {
+            console.log(response);
             if(response.statusCode === 200){
+                console.log(response);
                 res.redirect('/success.html');
             } else {
                 res.redirect('/fail.html');
