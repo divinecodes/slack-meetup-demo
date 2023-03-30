@@ -27,7 +27,7 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "nodemon": "^1.19.2"
+    "nodemon": "^2.0.21"
   }, 
   "engines": {
     "node": "8.x"
